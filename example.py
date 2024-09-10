@@ -7,12 +7,17 @@
 def fizzbuzz(input_number):
     return_array = []
     for i in range(1, input_number+1):
+        added_value = ""
         if i % 3 == 0:
-            return_array += ['Fizz']
-        elif i % 5 == 0:
-            return_array += ['Buzz']
+            added_value += 'Fizz'
+        if i % 5 == 0:
+            added_value += 'Buzz'
+
+        if added_value:
+            return_array += [added_value]
         else:
             return_array += [i]
+
 
     return return_array
 
