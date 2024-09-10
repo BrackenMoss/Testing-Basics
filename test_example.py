@@ -16,3 +16,6 @@ class TestFizzBuzz(unittest.TestCase):
 
     def test_three(self):
         self.assertEqual(fizzbuzz(3), [1,2, 'Fizz'])
+
+    def test_five(self):
+        self.assertEqual(fizzbuzz(5), [1,2, 'Fizz', 4, 'Buzz'])
