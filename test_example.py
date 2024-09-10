@@ -12,4 +12,4 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(fizzbuzz(1), [1])
 
     def test_two(self):
-        self.assertEqual(fizzbuzz(1), [1,2])
+        self.assertEqual(fizzbuzz(2), [1,2])
