@@ -6,17 +6,20 @@
 
 def fizzbuzz(input_number):
     return_array = []
-    for i in range(1, input_number+1):
-        added_value = ""
-        if i % 3 == 0:
-            added_value += 'Fizz'
-        if i % 5 == 0:
-            added_value += 'Buzz'
+    try:
+        for i in range(1, input_number+1):
+            added_value = ""
+            if i % 3 == 0:
+                added_value += 'Fizz'
+            if i % 5 == 0:
+                added_value += 'Buzz'
 
-        if added_value:
-            return_array += [added_value]
-        else:
-            return_array += [i]
+            if added_value:
+                return_array += [added_value]
+            else:
+                return_array += [i]
+    except TypeError:
+        pass
 
 
     return return_array
