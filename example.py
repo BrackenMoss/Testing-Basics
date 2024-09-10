@@ -5,7 +5,12 @@
 
 
 def fizzbuzz(input_number):
-    if input_number == 1:
-        return [1]
-    return [1,2]
+    return_array = []
+    for i in range(1, input_number+1):
+        if i == 3:
+            return_array += ['Fizz']
+        else:
+            return_array += [i]
+
+    return return_array
 
