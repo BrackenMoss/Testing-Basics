@@ -24,4 +24,4 @@ class TestFizzBuzz(unittest.TestCase):
         self.assertEqual(fizzbuzz(10), [1,2, 'Fizz', 4, 'Buzz', 'Fizz', 7,8,'Fizz', 'Buzz'])
 
     def test_fifteen(self):
-        self.assertEqual(fizzbuzz(10), [1,2, 'Fizz', 4, 'Buzz', 'Fizz', 7,8,'Fizz', 'Buzz', 11,'Fizz',13,14,'FizzBuzz'])
+        self.assertEqual(fizzbuzz(15), [1,2, 'Fizz', 4, 'Buzz', 'Fizz', 7,8,'Fizz', 'Buzz', 11,'Fizz',13,14,'FizzBuzz'])
