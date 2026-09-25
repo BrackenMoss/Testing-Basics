@@ -4,10 +4,10 @@ from challenge import guesser
 class Test_Number_Guesser():
 
     def test_exists(self,):
-        guesser(1,2)
+        guesser()
 
     def test_returns(self):
-         guesser(2,1) == ''
+         guesser() == ''
 
     def test_guesser_takes_input(self):
         guesser(2,3)

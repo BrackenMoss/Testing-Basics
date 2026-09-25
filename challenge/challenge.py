@@ -1,5 +1,5 @@
 import random
-def guesser(guess,number=''):
+def guesser(guess='',number=''):
     if number == '':
          number = random.randrange(1,101)
     try:
